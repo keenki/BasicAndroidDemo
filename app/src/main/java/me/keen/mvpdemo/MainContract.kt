@@ -19,5 +19,4 @@ interface MainContract {
     interface Model:IModel{
         fun getBanner(): Observable<HttpResult<MutableList<Banner>>>
     }
-
 }
